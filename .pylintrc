@@ -1,0 +1,16 @@
+[MASTER]
+unsafe-load-any-extension=y
+
+[SPELLING]
+max-spelling-suggestions=0
+
+[MESSAGES CONTROL]
+disable=R,C0330,C0412,C0111,fixme
+
+[FORMAT]
+max-line-length=120
+
+[BASIC]
+variable-rgx=[a-z_][a-z0-9_]*$
+argument-rgx=[a-z_][a-z0-9_]*$
+attr-rgx=[a-z_][a-z0-9_]*$
